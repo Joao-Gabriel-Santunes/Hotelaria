@@ -1,0 +1,208 @@
+body{
+    font-family: "KannadaMN";
+    text-shadow: 1px 1px black;
+    background-color: #1a1a1a;
+}
+header{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    margin-bottom: -15% !important;
+}
+nav{
+    
+    
+    width: 100%;
+    background-color: #1a1a1a;
+    border-bottom: solid 2px #959279;
+    padding-top: 2%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#reserva{
+    color: #959279;
+    border-top: solid 2px #959279;
+    border-bottom: solid 2px #959279;
+    width: 100%;
+}
+.check{
+    flex-direction: column;
+}
+#hotel{
+    flex-direction: column;
+    color: #959279;
+    margin-top: 10%;
+}
+.texto{
+    background-color: #3c3c38;
+    color: #959279;
+    border-radius: 2%;
+    padding: 5%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    margin-bottom: 100px; 
+    width: 35%;
+}
+button{
+    border: solid 1px #959279;
+    background-color: #1a1a1a;
+    color: #959279;
+    border-radius: 2%;
+}
+#quarto{
+    width: 40%;
+}
+.quarto{
+    height: 475px;
+    border: solid 5px #3c3c38;
+    border-radius: 5%;
+}
+#texto{
+    font-size: large;
+    text-align: justify;
+}
+input{
+    background-color: #141212;
+    border: solid 1px #141212;
+    border-radius: 10%;
+    color: white;
+}
+#conteudo{
+    margin-top: 10%;
+}
+.botao{
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+#botao{
+    height: 60%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1{
+    border-top: solid 2px #959279;
+    border-bottom: solid 2px #959279;
+    padding: 2%;
+    text-align: center;
+    
+}
+#titulo1{
+    font-size: 150%;
+    border: none;
+    margin: none;
+}
+h3{
+    font-size: 300%;
+    font-family: "KannadaMN";
+
+}
+p{
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    height: 90%;
+}
+#cnn{
+    width: 30%;
+    font-size: 190%;
+}
+label{
+    font-family: 'KannadaMN', sans-serif;
+}
+button:hover{
+    background-color: #959279;
+    color: #1a1a1a;
+}
+a:hover{
+    color: #959279;
+    border-bottom: solid 2px #959279;
+}
+video{
+    width: 100%;
+    height: 40%;
+    max-height: 40%;
+    min-height: 40%;
+}
+source{
+    width: 100vw;
+}
+footer {
+    background-color: #1c1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.footer-info,
+.footer-social,
+.footer-address {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-info h3,
+.footer-social h4,
+.footer-address h4 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.footer-info p,
+.footer-social ul,
+.footer-address p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.footer-social ul {
+    list-style-type: none;
+}
+
+.footer-social li {
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-social a:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-info,
+    .footer-social,
+    .footer-address {
+        margin: 10px 0;
+    }
+}

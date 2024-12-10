@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hotel SBS</title>
+</head>
+<body>
+    <header>
+         <nav>
+            <div>
+                <ul class="d-flex justify-content-around">
+                    <li>
+                        <a href="./index.html">
+                            HOTEL
+                        </a>
+                    </li>
+                <li>
+                   <a href="./acomodações.html">
+                    ACOMODAÇÕES
+                   </a>
+                </li>
+                <li>
+                    <a href="./experiencias.html">
+                     EXPERIENCIAS
+                    </a>
+                </li>
+                <li>
+                   <a href="./galeria.html">
+                     GALERIAS
+                   </a>
+                </li>
+                    <li>
+                        <a href="./contatos.html">
+                          CONTATOS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+         </nav>
+    </header>
+    <main>
+        <video
+         muted 
+         autoplay>
+          <source src="./video hotel.webm">
+        </video>
+        <div class="d-flex justify-content-around" id="reserva">
+            <h1 id="titulo1">
+                FAÇA SUA RESERVA
+            </h1>
+            <div class="d-flex justify-content-around w-50">
+            <div class="d-flex justify-content-center check">
+                <label class="w-75">CHECK IN</label>
+                <input type="datetime" class="w-75">
+            </div>
+            <div class="d-flex justify-content-center check">    
+                <label class="w-75">CHECK OUT</label>
+                <input type="datetime" class="w-75">
+            </div>
+            <div class="d-flex justify-content-center check">    
+                <label class="w-50">ADULTO</label>
+                <input type="number" class="w-50">
+            </div>
+            <div class="d-flex justify-content-center check">    
+                <label class="w-50">CRIANÇA</label>
+                <input type="number" class="w-50">
+            </div>
+            <div class="d-flex botao">
+                <button id="botao">
+                    RESERVAR
+                </button>
+            </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center" id="hotel">
+            <h3 class="d-flex justify-content-center">
+              Sua pousada de luxo em São Bento do Sapucaí.
+            </h3>
+            <p class="d-flex justify-content-center mt-4 mb-4">
+              Feito para te deixar o mais confortável possível.
+            </p>
+            <div class= "d-flex justify-content-center mt-4 ">
+                <button id="cnn">
+                    HOTEL SBS NA CNN
+                </button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around" id="conteudo">
+            <img class="quarto" id="quarto" src="https://www.orthotel.com.br/wp-content/uploads/2024/05/Home-1.webp" alt="">
+            <div class="texto quarto">
+                <h1>
+                   O HOTEL
+                </h1>
+                <p class="mt-3" id="texto">
+                    O SBS Hotel traz um novo significado para o luxo e o design. 
+                    Trazendo frescor para a icônica cidade de Campos do Jordão, combinando a natureza dos seus jardins desenhados 
+                    para a contemplação com o ambiente de conforto e luxo do seu prédio, construído em estilo “bávaro” nos anos 40, 
+                    totalmente reformado entre 2020/21, e incorporando toda a alma europeia nos detalhes das suas acomodações.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>SBS Hotel</h3>
+                <p>Bem-vindo ao SBS Hotel! Conforto e excelência para sua estadia.</p>
+                <p><strong>Telefone:</strong> (11) 1234-5678</p>
+                <p><strong>Email:</strong> contato@sbshotel.com</p>
+            </div>
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/sbshotel" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/sbshotel" target="_blank">Facebook</a></li>
+                    <li><a href="mailto:contato@sbshotel.com">Email</a></li>
+                </ul>
+            </div>
+            <div class="footer-address">
+                <h4>Endereço</h4>
+                <p>Rua Exemplo, 123 - Centro, Cidade - Estado</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SBS Hotel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="./menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
